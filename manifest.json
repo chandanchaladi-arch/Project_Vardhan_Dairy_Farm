@@ -1,0 +1,13 @@
+{
+  "name": "Vardhan Dairy Farm",
+  "short_name": "Vardhan Dairy",
+  "description": "Daily operations tracker for Vardhan Dairy Farm — production, deliveries, customers, workers, and expenses.",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#F5F2E8",
+  "theme_color": "#2E7A4D",
+  "icons": [
+    { "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}
