@@ -30,3 +30,12 @@ Just open `index.html` in a browser, or serve the folder as a static site (e.g. 
 ## Phase 2 (when ready to go multi-user)
 
 Once this is validated for daily use, the natural next step is adding a small shared backend (e.g. Supabase/Firebase or a lightweight API + database) so the owner, workers, and customers can all see live, synced data from their own devices — without the ₹8,000/month vendor maintenance cost.
+## Deploy with Netlify
+
+The repo includes a `netlify.toml` (static site, no build step, publishes the root folder).
+
+1. Sign in at [app.netlify.com](https://app.netlify.com) and choose **Add new site → Import an existing project**.
+2. Pick **GitHub** and select this repository.
+3. Leave the build command empty and the publish directory as `.` (already set by `netlify.toml`), then **Deploy**.
+
+Netlify gives you a URL like `https://<site-name>.netlify.app` and redeploys on every push. For a quick one-off without Git, you can also drag this folder onto [app.netlify.com/drop](https://app.netlify.com/drop).

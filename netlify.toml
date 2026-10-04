@@ -1,0 +1,14 @@
+# Netlify config: plain static site, no build step.
+[build]
+  publish = "."
+  command = ""
+
+[[headers]]
+  for = "/manifest.json"
+  [headers.values]
+    Content-Type = "application/manifest+json"
+
+[[headers]]
+  for = "/index.html"
+  [headers.values]
+    Cache-Control = "no-cache"
